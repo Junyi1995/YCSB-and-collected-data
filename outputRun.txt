@@ -1,0 +1,27 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.AsyncMongoDbClient -s -P workloads/workloada -p mongodb.url=mongodb://localhost:27017/ycsb?w=0 -t
+mongo connection created with mongodb://localhost:27017/ycsb?w=0
+22:14:00.396 [Thread-1] DEBUG c.a.m.c.c.b.BootstrapConnectionFactory - Simple MongoDB bootstrap to localhost/127.0.0.1:27017.
+22:14:00.613 [Thread-1] DEBUG c.a.mongodb.client.ClientImpl - MongoDB Connection closed: MongoDB(58568-->localhost/127.0.0.1:27017)
+[OVERALL], RunTime(ms), 336.0
+[OVERALL], Throughput(ops/sec), 2976.190476190476
+[READ], Operations, 499.0
+[READ], AverageLatency(us), 390.90180360721445
+[READ], MinLatency(us), 119.0
+[READ], MaxLatency(us), 60223.0
+[READ], 95thPercentileLatency(us), 412.0
+[READ], 99thPercentileLatency(us), 1005.0
+[READ], Return=OK, 499
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 1685.0
+[CLEANUP], MinLatency(us), 1685.0
+[CLEANUP], MaxLatency(us), 1685.0
+[CLEANUP], 95thPercentileLatency(us), 1685.0
+[CLEANUP], 99thPercentileLatency(us), 1685.0
+[UPDATE], Operations, 501.0
+[UPDATE], AverageLatency(us), 88.39520958083833
+[UPDATE], MinLatency(us), 30.0
+[UPDATE], MaxLatency(us), 1582.0
+[UPDATE], 95thPercentileLatency(us), 159.0
+[UPDATE], 99thPercentileLatency(us), 257.0
+[UPDATE], Return=NOT_FOUND, 501
